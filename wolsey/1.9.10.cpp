@@ -24,7 +24,7 @@ int main() {
 
 		// Create an environment
 		GRBEnv env = GRBEnv(true);
-		env.set("LogFile", "mip1.log");
+		env.set("LogFile", "1.9.10.log");
 		env.start();
 
 		// Create an empty model
